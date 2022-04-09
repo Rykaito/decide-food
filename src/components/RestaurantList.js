@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import AddRestaurant from "../../AddRestaurant";
-import DeleteRestaurant from "../../DeleteRestaurant";
-import RandomSelection from "../../RandomSelection";
+import AddRestaurant from "./AddRestaurant";
+import DeleteRestaurant from "./DeleteRestaurant";
+import RandomSelection from "./RandomSelection";
 
 const RestaurantList = ({ restaurants }) => {
   const handleCheckAll = () => {
