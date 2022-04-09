@@ -6,7 +6,7 @@ const DeleteRestaurant = ({ restaurants }) => {
       await fetch(`https://restlist.herokuapp.com/restaurants/${id}`, {
         method: "DELETE",
       });
-      window.location = "/";
+      window.location = "/decide-food";
     } catch (error) {
       console.error(error.message);
     }
