@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/decide-food/static/css/main.e582f554.css",
+    "main.js": "/decide-food/static/js/main.6be8bc24.js",
+    "index.html": "/decide-food/index.html",
+    "main.e582f554.css.map": "/decide-food/static/css/main.e582f554.css.map",
+    "main.6be8bc24.js.map": "/decide-food/static/js/main.6be8bc24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e582f554.css",
+    "static/js/main.6be8bc24.js"
+  ]
+}
