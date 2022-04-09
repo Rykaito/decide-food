@@ -5,7 +5,7 @@ const EatState = () => {
     const [restaurants, setRestaurants] = useState([]);
 
     async function getRestaurants() {
-      const response = await fetch("/restaurants");
+      const response = await fetch("https://restlist.herokuapp.com/restaurants");
       const restaurantArray = await response.json();
       setRestaurants(restaurantArray)
     }

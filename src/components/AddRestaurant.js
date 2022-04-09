@@ -6,7 +6,7 @@ const AddRestaurant = () => {
     e.preventDefault();
     try {
       const body = { name };
-      await fetch("/restaurants", {
+      await fetch("https://restlist.herokuapp.com/restaurants", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),

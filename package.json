@@ -35,7 +35,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://restlist.herokuapp.com",
   "homepage": "https://rykaito.github.io/decide-food",
   "devDependencies": {
     "gh-pages": "^3.2.3"

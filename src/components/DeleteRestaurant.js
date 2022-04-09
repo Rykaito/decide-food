@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const DeleteRestaurant = ({ restaurants }) => {
   const deleteRestaurant = async (id) => {
     try {
-      await fetch(`/restaurants/${id}`, {
+      await fetch(`https://restlist.herokuapp.com/restaurants/${id}`, {
         method: "DELETE",
       });
       window.location = "/";
