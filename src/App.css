@@ -1,0 +1,133 @@
+#root,
+html {
+  background-color: #26302d;
+  font-family: monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0px
+}
+
+.list-container {
+  margin: 4rem 0;
+}
+
+.list {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 65vh;
+  list-style-type: none;
+  align-content: space-evenly;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: end;
+  max-width: 350px;
+}
+
+a {
+  text-align: left;
+  color: #c6dbf3;
+}
+
+a:hover {
+  color: #FFA737;
+}
+
+input.rest-check {
+  margin-left: 10px;
+  accent-color: #FFA737;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.selectors {
+  text-align-last: center;
+  margin-top: 5%;
+}
+
+.btn {
+  background-color: #FFA737;
+  color: rgb(15, 39, 65);
+  margin-right: 5px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #c6dbf3;
+  color: rgb(15, 39, 65);
+}
+
+.btn-danger {
+  background-color: #e4643e;
+}
+
+.btn-primary {
+  background-color: #7aafec;
+}
+
+.btn-secondary {
+  background-color:#65debd;
+}
+
+div.modal-header, div.modal-body, div.modal-footer {
+  background-color: #26302d;
+  border: none;
+  border-radius: 0;
+  
+}
+
+input.form-control, .custom-select {
+  background-color: #e1dbcd;
+}
+
+.form-control:focus {
+  border: none;
+  background-color: #e1dbcd;
+  box-shadow: none;
+}
+
+.modal-title {
+  color: #c6dbf3;
+}
+
+.close {
+  text-shadow: none;
+  color: #fefefe;
+}
+
+div.mb-result {
+  background-color: #26302d;
+}
+
+#result {
+  text-align: center;
+  color:#c6dbf3;
+}
+
+@media screen and (max-width: 830px) {
+  .list {
+    height: 100vh;
+    font-size: 1.375rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    height: fit-content;
+    font-size: 1.15rem;
+  }
+
+  li {
+    justify-content: space-between;
+  }
+}
