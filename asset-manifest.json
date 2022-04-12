@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/decide-food/static/css/main.f6ba0717.css",
+    "main.css": "/decide-food/static/css/main.70df1074.css",
     "main.js": "/decide-food/static/js/main.7a105806.js",
     "index.html": "/decide-food/index.html",
-    "main.f6ba0717.css.map": "/decide-food/static/css/main.f6ba0717.css.map",
+    "main.70df1074.css.map": "/decide-food/static/css/main.70df1074.css.map",
     "main.7a105806.js.map": "/decide-food/static/js/main.7a105806.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6ba0717.css",
+    "static/css/main.70df1074.css",
     "static/js/main.7a105806.js"
   ]
 }
