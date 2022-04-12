@@ -1,15 +1,18 @@
 #root,
+body,
 html {
   background-color: #26302d;
   font-family: monospace;
 }
 
 ::-webkit-scrollbar {
-  width: 0px
+  width: 0px;
 }
 
 .list-container {
   margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .list {
@@ -26,7 +29,7 @@ li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  justify-content: end;
+  justify-content: flex-end;
   max-width: 350px;
 }
 
@@ -36,12 +39,12 @@ a {
 }
 
 a:hover {
-  color: #FFA737;
+  color: #ffa737;
 }
 
 input.rest-check {
   margin-left: 10px;
-  accent-color: #FFA737;
+  accent-color: #ffa737;
 }
 
 .actions {
@@ -51,12 +54,12 @@ input.rest-check {
 }
 
 .selectors {
-  text-align-last: center;
+  align-self: center;
   margin-top: 5%;
 }
 
 .btn {
-  background-color: #FFA737;
+  background-color: #ffa737;
   color: rgb(15, 39, 65);
   margin-right: 5px;
   border: none;
@@ -76,17 +79,19 @@ input.rest-check {
 }
 
 .btn-secondary {
-  background-color:#65debd;
+  background-color: #65debd;
 }
 
-div.modal-header, div.modal-body, div.modal-footer {
+div.modal-header,
+div.modal-body,
+div.modal-footer {
   background-color: #26302d;
   border: none;
   border-radius: 0;
-  
 }
 
-input.form-control, .custom-select {
+input.form-control,
+.custom-select {
   background-color: #e1dbcd;
 }
 
@@ -111,10 +116,10 @@ div.mb-result {
 
 #result {
   text-align: center;
-  color:#c6dbf3;
+  color: #c6dbf3;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 870px) {
   .list {
     height: 100vh;
     font-size: 1.375rem;
